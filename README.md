@@ -8,7 +8,7 @@ This role requires root access so your playbook should be invoked with appropria
 None
 
 ## License
-BSD
+GPL
 
 ## Author Information
 This role was created in 2017 by Alex Day.
