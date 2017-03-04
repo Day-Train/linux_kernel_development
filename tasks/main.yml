@@ -1,0 +1,32 @@
+---
+- name: Install bc
+  apt: pkg=bc state=present
+  become: true
+
+- name: Install libncurses5-dev
+  apt: pkg=libncurses5-dev state=present
+  become: true
+
+- name: Install make
+  apt: pkg=make state=present
+  become: true
+
+- name: Install libssl-dev
+  apt: pkg=libssl-dev state=present
+  become: true
+
+- name: Install exuberant-ctags
+  apt: pkg=exuberant-ctags state=present
+  become: true
+
+- name: Install gcc
+  apt: pkg=gcc state=present
+  become: true
+
+- name: Install byobu
+  apt: pkg=byobu state=present
+  become: true
+
+- name: Install g++
+  apt: pkg=g++ state=present
+  become: true
